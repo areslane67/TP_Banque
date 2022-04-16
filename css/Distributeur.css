@@ -1,0 +1,50 @@
+/*reset*/
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 1.6rem 'dosis', sans-serif;
+    margin: 0;
+}
+h1, h2, h3{
+    margin: 0;
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+    color: #222;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+/*theme*/
+header{
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+
+main p{
+    text-align: center ;
+    color: #fafafa;
+    display: block;
+}
+footer{
+    text-align: center;
+}
+
+.success{
+    background-color: rgb(51, 71, 184);
+    width: 40rem;
+    padding: 1rem;
+    margin: 0 auto 1.0rem;
+    border-radius: 4rem;
+}
+.warning{
+    background-color: rgb(175, 26, 26);
+    width: 40rem;
+    padding: 1rem;
+    margin: 0 auto 1.0rem;
+    border-radius: 4rem;
+}
